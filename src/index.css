@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#email {
+  color:black;
+}
+#password{
+  color:black;
+}
+#status{
+  color:green;
+  font-size: 20px;
+}
+#form_inputs{
+  color:black;
+}
+#dropzonecode{
+  color:green;
+  font-size: 20px;
+  margin-top: 100px;
+}
+#uploadpost{
+  font-size: 30px;
+  margin-top: 20px;
+  background-color:#ffa31e;
+  color: azure;
+  border: 0px;
+}
+.div_image{
+  height: 20%;
+  max-width: 650px; 
+}
+#correctsize{
+  max-height: 400px;
+}
+ 
+#uploadcat{
+  font-size: 25px;
+  margin-top: 15px;
+  background-color:#ffa31e;
+  color: azure;
+  border: 0px;
+}
+#catimg{
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  
+}
+#catname{
+ 
+  text-shadow: 0px 1px 0px #bdbebd;
+}
+.list_icon{
+height: 30px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffa31e;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+a:hover {
+  cursor:pointer;
+ }
